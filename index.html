@@ -120,5 +120,20 @@
       <div><a href="friend.html">友链</a></div>
     </div>
   </div>
+  <script type="text/javascript">
+    const pubtimeEls = document.querySelectorAll('.pubtime em');
+    pubtimeEls.forEach((el) => {
+      const date = new Date(el.innerHTML);
+      el.innerHTML = `${date.getMonth() + 1}月${date.getDate()}日, ${date.getFullYear()}`;
+    });
+
+    let title = document.title;
+    window.addEventListener('blur', () => {
+      document.title = '记得回来看我啊~';
+    });
+    window.addEventListener('focus', () => {
+      document.title = title;
+    });
+  </script>
 </body>
 </html>
