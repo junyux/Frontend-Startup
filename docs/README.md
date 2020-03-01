@@ -5,9 +5,9 @@
 ```
 myblog/
 ├── about.html  个人介绍
-├── article.html  文章页
 ├── index.html  首页
 ├── links.html  友情链接
+├── articles    文章目录
 └── static  
     ├── css  外链的CSS 
     ├── image   图片
