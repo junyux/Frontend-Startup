@@ -1,4 +1,4 @@
-# [从零开始创建你的个人博客](https://www.yuque.com/akira_cn/wswkth)
+# [从零开始创建你的个人博客](https://xitu.github.io/courses/webdev/getting_started_fe/index)
 
 你请我喝一杯咖啡，我教你写一个博客系统。这是写给普通人看的网页开发课。
 
